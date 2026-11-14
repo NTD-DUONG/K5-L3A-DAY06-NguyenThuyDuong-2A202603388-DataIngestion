@@ -1,0 +1,65 @@
+{
+  "source_units_sha256": "e19e45509a440f3b66e8ad20f4907325a54f782fc6405e4af10009185d6fee99",
+  "strategies": {
+    "A": {
+      "config": {
+        "chunk_method": "fixed",
+        "chunk_size_chars": 500,
+        "overlap_chars": 50,
+        "use_metadata_filter": false
+      },
+      "unit_count": 30,
+      "chunk_count": 131,
+      "min_chars": 98,
+      "max_chars": 500,
+      "mean_chars": 441.7709923664122,
+      "median_chars": 500,
+      "total_chunk_chars": 57872,
+      "chunking_seconds": 0.00933630000508856
+    },
+    "B": {
+      "config": {
+        "chunk_method": "paragraph",
+        "max_chunk_size_chars": 1000,
+        "overlap_chars": 0,
+        "use_metadata_filter": false
+      },
+      "unit_count": 30,
+      "chunk_count": 71,
+      "min_chars": 69,
+      "max_chars": 1000,
+      "mean_chars": 742.4225352112676,
+      "median_chars": 805,
+      "total_chunk_chars": 52712,
+      "chunking_seconds": 0.007527200003096368
+    },
+    "C": {
+      "config": {
+        "chunk_method": "paragraph",
+        "max_chunk_size_chars": 1000,
+        "overlap_chars": 0,
+        "use_metadata_filter": true
+      },
+      "unit_count": 30,
+      "chunk_count": 71,
+      "min_chars": 69,
+      "max_chars": 1000,
+      "mean_chars": 742.4225352112676,
+      "median_chars": 805,
+      "total_chunk_chars": 52712,
+      "chunking_seconds": 0.008696300006704405
+    }
+  },
+  "checks": {
+    "source_offsets_match": true,
+    "all_nonwhitespace_covered": true,
+    "unique_ids_per_strategy": true,
+    "B_C_identical": true
+  },
+  "notes": [
+    "Timing covers only chunk construction, validation and artifact serialization; not embedding or database ingestion.",
+    "Chunks stay within source units; unit boundaries can already split source paragraphs.",
+    "B prefers paragraph and sentence boundaries but oversized paragraphs may split at words.",
+    "Character limits do not guarantee tokenizer limits; check model token lengths before embedding."
+  ]
+}

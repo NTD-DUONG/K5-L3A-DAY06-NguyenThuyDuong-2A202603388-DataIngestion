@@ -1,0 +1,82 @@
+{
+  "reviewer": "Nguyễn Thùy Dương",
+  "student_confirmed": true,
+  "confirmed_at_utc": "2026-11-13T20:35:13.140384+00:00",
+  "method": "Assisted qualitative review explicitly confirmed by student; q16 equivalent evidence accepted; original automatic results preserved",
+  "strategies": {
+    "A": {
+      "strategy": "A",
+      "split": "test",
+      "question_count": 5,
+      "hit_at_1": {
+        "numerator": 2,
+        "denominator": 5,
+        "value": 0.4
+      },
+      "evidence_hit_at_3": {
+        "numerator": 2,
+        "denominator": 5,
+        "value": 0.4
+      },
+      "filter_compliance": {
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0.0
+      },
+      "failed_question_ids": [
+        "q17",
+        "q18",
+        "q19"
+      ]
+    },
+    "B": {
+      "strategy": "B",
+      "split": "test",
+      "question_count": 5,
+      "hit_at_1": {
+        "numerator": 1,
+        "denominator": 5,
+        "value": 0.2
+      },
+      "evidence_hit_at_3": {
+        "numerator": 2,
+        "denominator": 5,
+        "value": 0.4
+      },
+      "filter_compliance": {
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0.0
+      },
+      "failed_question_ids": [
+        "q17",
+        "q18",
+        "q19"
+      ]
+    },
+    "C": {
+      "strategy": "C",
+      "split": "test",
+      "question_count": 5,
+      "hit_at_1": {
+        "numerator": 1,
+        "denominator": 5,
+        "value": 0.2
+      },
+      "evidence_hit_at_3": {
+        "numerator": 3,
+        "denominator": 5,
+        "value": 0.6
+      },
+      "filter_compliance": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "failed_question_ids": [
+        "q18",
+        "q19"
+      ]
+    }
+  }
+}

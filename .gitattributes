@@ -1,0 +1,7 @@
+*.py text eol=lf
+*.md text eol=lf
+*.csv text eol=lf
+# Preserve exact bytes of frozen benchmark inputs and recorded hash evidence.
+*.json -text whitespace=trailing-space,space-before-tab,cr-at-eol
+*.jsonl -text whitespace=trailing-space,space-before-tab,cr-at-eol
+*.mhtml -text -diff whitespace=trailing-space,space-before-tab,cr-at-eol

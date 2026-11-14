@@ -1,0 +1,39 @@
+{
+  "source": "data/raw/khac_go.mhtml",
+  "output": "data/processed/khac_go.txt",
+  "excluded_blocks": [
+    {
+      "text": "Ứng dụng",
+      "reason": "Tiêu đề phần ứng dụng ngoài phạm vi"
+    },
+    {
+      "text": "Khắc gỗ, in lên gỗ xuất hiện nhiều trong cuộc sống hằng ngày, được ứng dụng trong những lĩnh vực sau:",
+      "reason": "Ứng dụng in lên đồ vật, ngoài phạm vi in tranh"
+    },
+    {
+      "text": "In trên đồ dùng bằng gỗ: Tranh treo tường, muỗng, thớt, đũa, chén, tô, ly,...",
+      "reason": "Ứng dụng in lên đồ vật, ngoài phạm vi in tranh"
+    },
+    {
+      "text": "In trên các phụ kiện bằng gỗ: Móc khóa, ốp lưng cho điện thoại,...",
+      "reason": "Ứng dụng in lên đồ vật, ngoài phạm vi in tranh"
+    },
+    {
+      "text": "In trên nội thất bằng gỗ: Bàn, ghế, tủ, kệ, giường ngủ, cửa, đồng hồ treo tường,...",
+      "reason": "Ứng dụng in lên đồ vật, ngoài phạm vi in tranh"
+    },
+    {
+      "text": "Quảng cáo: In bảng quảng cáo, in bảng hiệu UV,...",
+      "reason": "Ứng dụng in lên đồ vật, ngoài phạm vi in tranh"
+    },
+    {
+      "text": "Các ứng dụng khắc gỗ hiện đại:",
+      "reason": "Khắc bút chì không thuộc kỹ thuật in tranh"
+    },
+    {
+      "text": "\"Khắc bút chì:\" Bút chì được sử dụng như một món quà độc đáo qua các ký tự hình và chữ được khắc thủ công. Bút chì khắc có mặt tại rất nhiều quốc gia. Các nghệ nhân khắc bút chì thường với mục đích tiêu khiển và tạo ra loại quà tặng rất độc đáo, rất riêng.",
+      "reason": "Khắc bút chì không thuộc kỹ thuật in tranh"
+    }
+  ],
+  "retained_scope": "Kỹ thuật, vật liệu, dụng cụ và lịch sử in khắc gỗ làm tài liệu nền"
+}

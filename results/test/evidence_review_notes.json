@@ -1,0 +1,80 @@
+[
+  {
+    "strategy": "A",
+    "question_id": "q16",
+    "rank": 1,
+    "chunk_id": "e0cdfa3efd120fa77c2a0ccc",
+    "metadata": {
+      "char_count": 492,
+      "title": "Hội họa dân gian Việt Nam",
+      "document_id": "hoi_hoa_dan_gian",
+      "unit_start_offset": 1800,
+      "language": "vi",
+      "document_end_char": 13123,
+      "chunk_method": "fixed",
+      "unit_end_offset": 2292,
+      "source": "https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam",
+      "source_text_path": "data/processed/hoi_hoa_dan_gian.txt",
+      "painting_tradition": "general",
+      "page": "hoi_hoa_dan_gian_u008",
+      "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=H%E1%BB%99i_h%E1%BB%8Da_d%C3%A2n_gian_Vi%E1%BB%87t_Nam&oldid=74427393",
+      "unit_start_char": 10831,
+      "document_start_char": 12631
+    },
+    "candidate_equivalent_evidence": "Bản in đen chờ cho khô thì đem tô màu.",
+    "status": "AI-identified candidate; student review pending",
+    "automatic_metrics_unchanged": true
+  },
+  {
+    "strategy": "B",
+    "question_id": "q16",
+    "rank": 1,
+    "chunk_id": "de12e5cab3f3474a26bc3b85",
+    "metadata": {
+      "document_start_char": 12679,
+      "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=H%E1%BB%99i_h%E1%BB%8Da_d%C3%A2n_gian_Vi%E1%BB%87t_Nam&oldid=74427393",
+      "chunk_method": "paragraph",
+      "document_id": "hoi_hoa_dan_gian",
+      "unit_start_char": 10831,
+      "title": "Hội họa dân gian Việt Nam",
+      "document_end_char": 13123,
+      "char_count": 444,
+      "source": "https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam",
+      "page": "hoi_hoa_dan_gian_u008",
+      "unit_start_offset": 1848,
+      "painting_tradition": "general",
+      "unit_end_offset": 2292,
+      "language": "vi",
+      "source_text_path": "data/processed/hoi_hoa_dan_gian.txt"
+    },
+    "candidate_equivalent_evidence": "Bản in đen chờ cho khô thì đem tô màu.",
+    "status": "AI-identified candidate; student review pending",
+    "automatic_metrics_unchanged": true
+  },
+  {
+    "strategy": "C",
+    "question_id": "q16",
+    "rank": 1,
+    "chunk_id": "de12e5cab3f3474a26bc3b85",
+    "metadata": {
+      "chunk_method": "paragraph",
+      "painting_tradition": "general",
+      "document_id": "hoi_hoa_dan_gian",
+      "language": "vi",
+      "page": "hoi_hoa_dan_gian_u008",
+      "source_text_path": "data/processed/hoi_hoa_dan_gian.txt",
+      "unit_end_offset": 2292,
+      "char_count": 444,
+      "unit_start_offset": 1848,
+      "title": "Hội họa dân gian Việt Nam",
+      "unit_start_char": 10831,
+      "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=H%E1%BB%99i_h%E1%BB%8Da_d%C3%A2n_gian_Vi%E1%BB%87t_Nam&oldid=74427393",
+      "document_end_char": 13123,
+      "source": "https://vi.wikipedia.org/wiki/Tranh_dân_gian_Việt_Nam",
+      "document_start_char": 12679
+    },
+    "candidate_equivalent_evidence": "Bản in đen chờ cho khô thì đem tô màu.",
+    "status": "AI-identified candidate; student review pending",
+    "automatic_metrics_unchanged": true
+  }
+]

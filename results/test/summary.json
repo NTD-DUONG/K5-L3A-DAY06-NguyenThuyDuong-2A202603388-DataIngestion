@@ -1,0 +1,94 @@
+{
+  "run_at_utc": "2026-11-13T20:09:15.012543+00:00",
+  "split": "test",
+  "selected_strategy_from_dev": "C",
+  "selection_frozen_at_utc": "2026-11-13T20:06:09.507654+00:00",
+  "frozen_selection_sha256": "4fe1b4765c5d05f6195480d8fde7f14edf3ca3d621908dfebb9d2bbbd6495661",
+  "frozen_inputs_verified": true,
+  "strategies": {
+    "A": {
+      "strategy": "A",
+      "split": "test",
+      "question_count": 5,
+      "hit_at_1": {
+        "numerator": 1,
+        "denominator": 5,
+        "value": 0.2
+      },
+      "evidence_hit_at_3": {
+        "numerator": 1,
+        "denominator": 5,
+        "value": 0.2
+      },
+      "filter_compliance": {
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0.0
+      },
+      "failed_question_ids": [
+        "q16",
+        "q17",
+        "q18",
+        "q19"
+      ]
+    },
+    "B": {
+      "strategy": "B",
+      "split": "test",
+      "question_count": 5,
+      "hit_at_1": {
+        "numerator": 0,
+        "denominator": 5,
+        "value": 0.0
+      },
+      "evidence_hit_at_3": {
+        "numerator": 1,
+        "denominator": 5,
+        "value": 0.2
+      },
+      "filter_compliance": {
+        "numerator": 0,
+        "denominator": 1,
+        "value": 0.0
+      },
+      "failed_question_ids": [
+        "q16",
+        "q17",
+        "q18",
+        "q19"
+      ]
+    },
+    "C": {
+      "strategy": "C",
+      "split": "test",
+      "question_count": 5,
+      "hit_at_1": {
+        "numerator": 0,
+        "denominator": 5,
+        "value": 0.0
+      },
+      "evidence_hit_at_3": {
+        "numerator": 2,
+        "denominator": 5,
+        "value": 0.4
+      },
+      "filter_compliance": {
+        "numerator": 1,
+        "denominator": 1,
+        "value": 1.0
+      },
+      "failed_question_ids": [
+        "q16",
+        "q18",
+        "q19"
+      ]
+    }
+  },
+  "query_embedding_seconds_shared": 0.03125680000084685,
+  "limitations": [
+    "Five test questions only; do not infer universal superiority.",
+    "Automatic full evidence matches; valid equivalent evidence may need human review.",
+    "No human coherence, metadata or grounding labels have been assigned by this script.",
+    "Do not tune on these test results and continue calling the same split an independent holdout."
+  ]
+}

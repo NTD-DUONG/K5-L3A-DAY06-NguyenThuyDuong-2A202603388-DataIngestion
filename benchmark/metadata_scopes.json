@@ -1,0 +1,14 @@
+{
+  "field": "painting_tradition",
+  "definition": "Phạm vi chính của tài liệu, gán từ tiêu đề; không gán theo mọi dòng tranh được nhắc tới.",
+  "document_values": {
+    "tranh_dong_ho": "dong_ho",
+    "tranh_hang_trong": "hang_trong",
+    "tranh_kim_hoang": "kim_hoang",
+    "tranh_lang_sinh": "lang_sinh",
+    "hoi_hoa_dan_gian": "general",
+    "giay_do": "general",
+    "khac_go": "general"
+  },
+  "usage": "Pipeline phải gắn cùng nhãn này cho chunk của cả A/B/C. Chỉ C dùng filter được cung cấp trước từ câu hỏi; không dùng gold_source_id/gold_page/expected_answer làm input retrieval."
+}

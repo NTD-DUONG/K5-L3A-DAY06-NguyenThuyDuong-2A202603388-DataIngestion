@@ -1,0 +1,132 @@
+[
+  {
+    "source_id": "tranh_dong_ho",
+    "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_%C4%90%C3%B4ng_H%E1%BB%93&oldid=75711659",
+    "original_local_path": "data/raw/tranh_dong_ho.mhtml",
+    "original_sha256": "ec9d8075088af4469a94aa333e400cb8565d4c74b75f8f18b1e0bade98e4987e",
+    "submitted_path": "data/text_sources/tranh_dong_ho.mhtml",
+    "submitted_sha256": "49b84a3fda2815bb7af7ed1961faf30baedff99567fc6a46b44adbacb45c6f8d",
+    "original_mime_parts": {
+      "text/html": 1,
+      "image/png": 3,
+      "image/jpeg": 5,
+      "image/svg+xml": 19,
+      "text/css": 16
+    },
+    "submitted_mime_parts": [
+      "text/html"
+    ]
+  },
+  {
+    "source_id": "hoi_hoa_dan_gian",
+    "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=H%E1%BB%99i_h%E1%BB%8Da_d%C3%A2n_gian_Vi%E1%BB%87t_Nam&oldid=74427393",
+    "original_local_path": "data/raw/Hoi_hoa_dan_gian_VN.mhtml",
+    "original_sha256": "94974073993edd3b46b148c9784694234d9d163c7c649f2c11ebfba08070542e",
+    "submitted_path": "data/text_sources/Hoi_hoa_dan_gian_VN.mhtml",
+    "submitted_sha256": "a908b626499f0f71405fd462865a91e203e037c8c5319619ed8f18a61a332a48",
+    "original_mime_parts": {
+      "text/html": 1,
+      "image/svg+xml": 21,
+      "image/gif": 1,
+      "image/jpeg": 1,
+      "image/png": 2,
+      "text/css": 15
+    },
+    "submitted_mime_parts": [
+      "text/html"
+    ]
+  },
+  {
+    "source_id": "giay_do",
+    "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Gi%E1%BA%A5y_d%C3%B3&oldid=74469469",
+    "original_local_path": "data/raw/giay_do.mhtml",
+    "original_sha256": "f4060074bfac4603564db3c71b77b7cc0b560e43e6ebe9fafc9c408be7b7926f",
+    "submitted_path": "data/text_sources/giay_do.mhtml",
+    "submitted_sha256": "21ef998662a5fd408504b9632499dce7e830fc20c96efc361413570d4c0aeb7b",
+    "original_mime_parts": {
+      "text/html": 1,
+      "image/svg+xml": 21,
+      "image/webp": 4,
+      "image/jpeg": 2,
+      "image/png": 2,
+      "text/css": 22
+    },
+    "submitted_mime_parts": [
+      "text/html"
+    ]
+  },
+  {
+    "source_id": "tranh_hang_trong",
+    "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_H%C3%A0ng_Tr%E1%BB%91ng&oldid=74834715",
+    "original_local_path": "data/raw/tranh_hang_trong.mhtml",
+    "original_sha256": "13343480bc424645da65a72dde4456f7d1ff5a821fe83638f5527ce03196485c",
+    "submitted_path": "data/text_sources/tranh_hang_trong.mhtml",
+    "submitted_sha256": "4cefb26c48a4a56de60a0cc27b3cfc8d52c1e1032883dbbe24b6546cbd3ed8e7",
+    "original_mime_parts": {
+      "text/html": 1,
+      "image/jpeg": 2,
+      "image/gif": 1,
+      "image/png": 2,
+      "image/svg+xml": 19,
+      "text/css": 15
+    },
+    "submitted_mime_parts": [
+      "text/html"
+    ]
+  },
+  {
+    "source_id": "tranh_kim_hoang",
+    "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_Kim_Ho%C3%A0ng&oldid=75185129",
+    "original_local_path": "data/raw/tranh_kim_hoang.mhtml",
+    "original_sha256": "2cb7a34d6a6b6e87f72bfb3160b31279b8382cd48cc9c71fb4b420256d75efe9",
+    "submitted_path": "data/text_sources/tranh_kim_hoang.mhtml",
+    "submitted_sha256": "88281d08b0fb66d9632aeb74f07c1ef86d681f0716bf7e48d2ab16c45ef9393e",
+    "original_mime_parts": {
+      "text/html": 1,
+      "image/png": 2,
+      "image/webp": 1,
+      "image/svg+xml": 18,
+      "text/css": 13
+    },
+    "submitted_mime_parts": [
+      "text/html"
+    ]
+  },
+  {
+    "source_id": "tranh_lang_sinh",
+    "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Tranh_l%C3%A0ng_S%C3%ACnh&oldid=74891555",
+    "original_local_path": "data/raw/tranh_lang_sinh.mhtml",
+    "original_sha256": "ae7cbd850a3b9f6ca4da5c8672587f00b1803df963a15a804b25c132c7a2c6d8",
+    "submitted_path": "data/text_sources/tranh_lang_sinh.mhtml",
+    "submitted_sha256": "9563788cae5d5e1449b385578edb178391310d199c4d35eddf6afb4c9c875081",
+    "original_mime_parts": {
+      "text/html": 1,
+      "image/jpeg": 2,
+      "image/png": 2,
+      "image/svg+xml": 19,
+      "text/css": 17
+    },
+    "submitted_mime_parts": [
+      "text/html"
+    ]
+  },
+  {
+    "source_id": "khac_go",
+    "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=Kh%E1%BA%AFc_g%E1%BB%97&oldid=69681873",
+    "original_local_path": "data/raw/khac_go.mhtml",
+    "original_sha256": "8027317ef4e379437b855658e5c5a3315b1f20513eebdcfd7e287f9bbdda0b9e",
+    "submitted_path": "data/text_sources/khac_go.mhtml",
+    "submitted_sha256": "6db3aa42c514aef61bffc06462223131f4d981caae5f62e63a014aab6d4bb5a6",
+    "original_mime_parts": {
+      "text/html": 1,
+      "image/jpeg": 1,
+      "image/png": 3,
+      "image/webp": 1,
+      "image/svg+xml": 19,
+      "text/css": 20
+    },
+    "submitted_mime_parts": [
+      "text/html"
+    ]
+  }
+]

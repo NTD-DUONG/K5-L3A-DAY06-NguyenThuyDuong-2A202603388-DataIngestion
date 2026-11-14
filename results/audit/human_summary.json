@@ -1,0 +1,81 @@
+{
+  "human_labels_only": true,
+  "strategies": {
+    "A": {
+      "coherence": {
+        "reviewed": 10,
+        "required": 10,
+        "complete": true,
+        "mean_of_reviewed": 1.0
+      },
+      "grounding": {
+        "reviewed": 5,
+        "required": 5,
+        "complete": true,
+        "counts_0_1_2": [
+          2,
+          1,
+          2
+        ],
+        "mean_of_reviewed": 1.0
+      },
+      "metadata": {
+        "reviewed": 15,
+        "required": 15,
+        "complete": true,
+        "complete_and_correct": 15
+      }
+    },
+    "B": {
+      "coherence": {
+        "reviewed": 10,
+        "required": 10,
+        "complete": true,
+        "mean_of_reviewed": 1.7
+      },
+      "grounding": {
+        "reviewed": 5,
+        "required": 5,
+        "complete": true,
+        "counts_0_1_2": [
+          3,
+          0,
+          2
+        ],
+        "mean_of_reviewed": 0.8
+      },
+      "metadata": {
+        "reviewed": 15,
+        "required": 15,
+        "complete": true,
+        "complete_and_correct": 15
+      }
+    },
+    "C": {
+      "coherence": {
+        "reviewed": 10,
+        "required": 10,
+        "complete": true,
+        "mean_of_reviewed": 1.7
+      },
+      "grounding": {
+        "reviewed": 5,
+        "required": 5,
+        "complete": true,
+        "counts_0_1_2": [
+          2,
+          0,
+          3
+        ],
+        "mean_of_reviewed": 1.2
+      },
+      "metadata": {
+        "reviewed": 15,
+        "required": 15,
+        "complete": true,
+        "complete_and_correct": 15
+      }
+    }
+  },
+  "all_human_audits_complete": true
+}

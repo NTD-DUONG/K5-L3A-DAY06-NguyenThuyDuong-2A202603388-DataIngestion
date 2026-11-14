@@ -1,0 +1,20 @@
+{
+  "A": {
+    "chunk_method": "fixed",
+    "chunk_size_chars": 500,
+    "overlap_chars": 50,
+    "use_metadata_filter": false
+  },
+  "B": {
+    "chunk_method": "paragraph",
+    "max_chunk_size_chars": 1000,
+    "overlap_chars": 0,
+    "use_metadata_filter": false
+  },
+  "C": {
+    "chunk_method": "paragraph",
+    "max_chunk_size_chars": 1000,
+    "overlap_chars": 0,
+    "use_metadata_filter": true
+  }
+}

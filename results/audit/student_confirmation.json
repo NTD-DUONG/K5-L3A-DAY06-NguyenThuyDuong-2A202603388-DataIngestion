@@ -1,0 +1,9 @@
+{
+  "reviewer": "Nguyễn Thùy Dương",
+  "confirmed_at_utc": "2026-11-13T20:35:13.140384+00:00",
+  "user_statement": "ok tôi xác nhận rồi",
+  "scope": "30 coherence labels, 15 grounding labels, 45 metadata labels, and q16 equivalent evidence in the presented review packet",
+  "confirmation_type": "Adoption/confirmation of assisted judgments; not a claim of independent blind grading",
+  "source_assessments_sha256": "3427f4e369eaecf5859e4c8f8218467030ecc75e79af5af06864ba6e686af55e",
+  "source_manual_reading_sheet_sha256": "90b1edc1f426819ee689eef968fa3b605ee04a6e73b225d90c6222a049c31716"
+}

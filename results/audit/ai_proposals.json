@@ -1,0 +1,395 @@
+{
+  "author": "Codex AI; not student/manual labels",
+  "human_review_pending": true,
+  "automatic_metrics_preserved": true,
+  "coherence_proposals": [
+    {
+      "sample_id": "coh01",
+      "strategy": "A",
+      "chunk_id": "892a910c782af5dbefae627d",
+      "ai_proposed_score": 1,
+      "ai_reason": "Đầu cắt giữa Kinh thành, cuối dừng ở để; quy trình chỉ còn một phần dù các bước ở giữa đọc được.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh01",
+      "strategy": "B",
+      "chunk_id": "87be5f0588113670aa5d94a6",
+      "ai_proposed_score": 2,
+      "ai_reason": "Giữ trọn các câu mô tả quy trình từ nguyên liệu tới liềm xeo; chủ đề giấy dó rõ.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh01",
+      "strategy": "C",
+      "chunk_id": "87be5f0588113670aa5d94a6",
+      "ai_proposed_score": 2,
+      "ai_reason": "Giữ trọn các câu mô tả quy trình từ nguyên liệu tới liềm xeo; chủ đề giấy dó rõ.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh02",
+      "strategy": "A",
+      "chunk_id": "5d33e5de728c012c30b25dce",
+      "ai_proposed_score": 1,
+      "ai_reason": "Đầu cắt giữa miếu thờ, cuối cắt mô tả giấy mịn; một số ý làng nghề vẫn đọc được.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh02",
+      "strategy": "B",
+      "chunk_id": "631cd5c4ff1863828a6ec60c",
+      "ai_proposed_score": 2,
+      "ai_reason": "Giữ các câu hoàn chỉnh về cấu trúc, độ bền và làng nghề giấy dó; đủ chủ thể.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh02",
+      "strategy": "C",
+      "chunk_id": "631cd5c4ff1863828a6ec60c",
+      "ai_proposed_score": 2,
+      "ai_reason": "Giữ các câu hoàn chỉnh về cấu trúc, độ bền và làng nghề giấy dó; đủ chủ thể.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh03",
+      "strategy": "A",
+      "chunk_id": "5d594ee17df4691065f15387",
+      "ai_proposed_score": 1,
+      "ai_reason": "Đầu thiếu phần mở câu, cuối cắt Nguyên liệu chủ; đặc tính giấy còn hiểu được một phần.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh03",
+      "strategy": "B",
+      "chunk_id": "37ab15a09a03addbc9165a7e",
+      "ai_proposed_score": 1,
+      "ai_reason": "Phần đặc tính giấy đọc hiểu được, nhưng cuối chunk treo tiêu đề Cây dó giấy chưa có nội dung.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh03",
+      "strategy": "C",
+      "chunk_id": "37ab15a09a03addbc9165a7e",
+      "ai_proposed_score": 1,
+      "ai_reason": "Phần đặc tính giấy đọc hiểu được, nhưng cuối chunk treo tiêu đề Cây dó giấy chưa có nội dung.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh04",
+      "strategy": "A",
+      "chunk_id": "4c308a458755a8523aff2629",
+      "ai_proposed_score": 1,
+      "ai_reason": "Đầu là phần nối thiếu tiền đề của chúng; cuối cắt câu lịch sử tiếp theo, các câu nhà Lý/Trần còn đầy đủ.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh04",
+      "strategy": "B",
+      "chunk_id": "332cb7ee79af96707d694083",
+      "ai_proposed_score": 2,
+      "ai_reason": "Có định nghĩa và lịch sử, giữ đầy đủ chủ thể tranh dân gian và các câu hoàn chỉnh.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh04",
+      "strategy": "C",
+      "chunk_id": "332cb7ee79af96707d694083",
+      "ai_proposed_score": 2,
+      "ai_reason": "Có định nghĩa và lịch sử, giữ đầy đủ chủ thể tranh dân gian và các câu hoàn chỉnh.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh05",
+      "strategy": "A",
+      "chunk_id": "06f4fccf904bc074dfe538d8",
+      "ai_proposed_score": 1,
+      "ai_reason": "Đầu mất chủ thể Tranh dân gian, cuối cắt giữa ngày; ý tạo hình đọc được nhưng thiếu ngữ cảnh.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh05",
+      "strategy": "B",
+      "chunk_id": "7bcd6586dc717cf269e6cd2c",
+      "ai_proposed_score": 2,
+      "ai_reason": "Các đoạn mô tả nét riêng và đặc điểm tạo hình có đủ ngữ cảnh; tiêu đề cuối báo chủ đề tiếp theo.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh05",
+      "strategy": "C",
+      "chunk_id": "7bcd6586dc717cf269e6cd2c",
+      "ai_proposed_score": 2,
+      "ai_reason": "Các đoạn mô tả nét riêng và đặc điểm tạo hình có đủ ngữ cảnh; tiêu đề cuối báo chủ đề tiếp theo.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh06",
+      "strategy": "A",
+      "chunk_id": "bcdbf4c4a2789486f20dd12a",
+      "ai_proposed_score": 1,
+      "ai_reason": "Đầu cắt từ loại, cuối cắt tranh; có mô tả tính chất giấy nhưng thiếu câu giới thiệu nguyên vẹn.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh06",
+      "strategy": "B",
+      "chunk_id": "db402b85f586b83744a8a330",
+      "ai_proposed_score": 2,
+      "ai_reason": "Giữ trọn mô tả giấy dó/giấy điệp, tính chất và nguyên liệu tạo màu; các câu tự hiểu được.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh06",
+      "strategy": "C",
+      "chunk_id": "db402b85f586b83744a8a330",
+      "ai_proposed_score": 2,
+      "ai_reason": "Giữ trọn mô tả giấy dó/giấy điệp, tính chất và nguyên liệu tạo màu; các câu tự hiểu được.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh07",
+      "strategy": "A",
+      "chunk_id": "e77acb92637605825430d6ab",
+      "ai_proposed_score": 1,
+      "ai_reason": "Đầu bắt đầu giữa câu gắn bó, cuối cắt trống; ví dụ truyện Nôm vẫn đọc được.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh07",
+      "strategy": "B",
+      "chunk_id": "1d99394dd31320bc4daae1c1",
+      "ai_proposed_score": 2,
+      "ai_reason": "Các đoạn bố cục, đề tài và ví dụ truyện Nôm giữ trọn câu và chủ thể.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh07",
+      "strategy": "C",
+      "chunk_id": "1d99394dd31320bc4daae1c1",
+      "ai_proposed_score": 2,
+      "ai_reason": "Các đoạn bố cục, đề tài và ví dụ truyện Nôm giữ trọn câu và chủ thể.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh08",
+      "strategy": "A",
+      "chunk_id": "d3aac40d6038183d7a2123d7",
+      "ai_proposed_score": 1,
+      "ai_reason": "Đầu cắt từ ngày, cuối câu bị cắt; đoạn Đám cưới chuột vẫn giữ đủ ý.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh08",
+      "strategy": "B",
+      "chunk_id": "3a47a077dc4d88bd09c37bb2",
+      "ai_proposed_score": 2,
+      "ai_reason": "Giữ đầy đủ ý nghĩa tranh gà và Đám cưới chuột, có ví dụ và giải thích trong chunk.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh08",
+      "strategy": "C",
+      "chunk_id": "3a47a077dc4d88bd09c37bb2",
+      "ai_proposed_score": 2,
+      "ai_reason": "Giữ đầy đủ ý nghĩa tranh gà và Đám cưới chuột, có ví dụ và giải thích trong chunk.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh09",
+      "strategy": "A",
+      "chunk_id": "e5dfab86c21722e5e0034a54",
+      "ai_proposed_score": 1,
+      "ai_reason": "Đầu cắt từ nhanh; danh sách dòng tranh và ý bảo tồn đọc được nhưng thiếu đầu đoạn.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh09",
+      "strategy": "B",
+      "chunk_id": "d0259355960ff3790156a287",
+      "ai_proposed_score": 1,
+      "ai_reason": "Nội dung tổng quan và danh sách dòng tranh rõ, nhưng kết thúc bằng tiêu đề Đông Hồ chưa có phần giải thích.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh09",
+      "strategy": "C",
+      "chunk_id": "d0259355960ff3790156a287",
+      "ai_proposed_score": 1,
+      "ai_reason": "Nội dung tổng quan và danh sách dòng tranh rõ, nhưng kết thúc bằng tiêu đề Đông Hồ chưa có phần giải thích.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh10",
+      "strategy": "A",
+      "chunk_id": "e1db367ab543e05fe103edff",
+      "ai_proposed_score": 1,
+      "ai_reason": "Đầu cắt nông thôn, cuối cắt danh sách tác phẩm; ý về Đông Hồ ở giữa còn hiểu được.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh10",
+      "strategy": "B",
+      "chunk_id": "d9a0ab5800dcbe9170aa478b",
+      "ai_proposed_score": 1,
+      "ai_reason": "Đầu chunk dùng Dòng tranh này cần ngữ cảnh trước; phía sau xác định Đông Hồ, nhưng cuối treo tiêu đề Hàng Trống.",
+      "human_confirmed": false
+    },
+    {
+      "sample_id": "coh10",
+      "strategy": "C",
+      "chunk_id": "d9a0ab5800dcbe9170aa478b",
+      "ai_proposed_score": 1,
+      "ai_reason": "Đầu chunk dùng Dòng tranh này cần ngữ cảnh trước; phía sau xác định Đông Hồ, nhưng cuối treo tiêu đề Hàng Trống.",
+      "human_confirmed": false
+    }
+  ],
+  "grounding_proposals": [
+    {
+      "strategy": "A",
+      "question_id": "q16",
+      "ai_proposed_score": 2,
+      "ai_reason": "Top-1 nguồn tổng quan ghi Bản in đen chờ cho khô thì đem tô màu và nêu rõ tranh làng Sình ngay sau đó; đủ điều kiện, có metadata truy nguồn.",
+      "human_confirmed": false
+    },
+    {
+      "strategy": "A",
+      "question_id": "q17",
+      "ai_proposed_score": 0,
+      "ai_reason": "Top-3 nói về khắc gỗ tổng quát/châu Âu, không nêu gỗ mít cho tranh làng Sình.",
+      "human_confirmed": false
+    },
+    {
+      "strategy": "A",
+      "question_id": "q18",
+      "ai_proposed_score": 0,
+      "ai_reason": "Top-3 không có chi tiết bút vẽ làm từ cây dứa; chỉ trả về mô tả tranh hoặc dụng cụ khác.",
+      "human_confirmed": false
+    },
+    {
+      "strategy": "A",
+      "question_id": "q19",
+      "ai_proposed_score": 1,
+      "ai_reason": "Top-3 có mảnh câu (Pinus) vì gỗ này có nhiều mấu và nhựa nhưng mất chủ thể gỗ thông và phần khẳng định không thích hợp. Không tính đủ evidence trong một chunk.",
+      "human_confirmed": false
+    },
+    {
+      "strategy": "A",
+      "question_id": "q20",
+      "ai_proposed_score": 2,
+      "ai_reason": "Có nguyên câu Sau mỗi lần in phải quét mực lại cho bản in khắc gỗ, đúng nguồn và đủ ngữ cảnh.",
+      "human_confirmed": false
+    },
+    {
+      "strategy": "B",
+      "question_id": "q16",
+      "ai_proposed_score": 2,
+      "ai_reason": "Top-1 nguồn tổng quan ghi Bản in đen chờ cho khô thì đem tô màu và nêu rõ tranh làng Sình ngay sau đó; đủ điều kiện, có metadata truy nguồn.",
+      "human_confirmed": false
+    },
+    {
+      "strategy": "B",
+      "question_id": "q17",
+      "ai_proposed_score": 0,
+      "ai_reason": "Top-3 nói về khắc gỗ tổng quát/châu Âu, không nêu gỗ mít cho tranh làng Sình.",
+      "human_confirmed": false
+    },
+    {
+      "strategy": "B",
+      "question_id": "q18",
+      "ai_proposed_score": 0,
+      "ai_reason": "Top-3 không có chi tiết bút vẽ làm từ cây dứa; chỉ trả về mô tả tranh hoặc dụng cụ khác.",
+      "human_confirmed": false
+    },
+    {
+      "strategy": "B",
+      "question_id": "q19",
+      "ai_proposed_score": 0,
+      "ai_reason": "Các chunk nói về vân gỗ, dụng cụ hoặc hoàng dương; không chứa lý do loại gỗ thông.",
+      "human_confirmed": false
+    },
+    {
+      "strategy": "B",
+      "question_id": "q20",
+      "ai_proposed_score": 2,
+      "ai_reason": "Có nguyên câu Sau mỗi lần in phải quét mực lại cho bản in khắc gỗ, đúng nguồn và đủ ngữ cảnh.",
+      "human_confirmed": false
+    },
+    {
+      "strategy": "C",
+      "question_id": "q16",
+      "ai_proposed_score": 2,
+      "ai_reason": "Top-1 nguồn tổng quan ghi Bản in đen chờ cho khô thì đem tô màu và nêu rõ tranh làng Sình ngay sau đó; đủ điều kiện, có metadata truy nguồn.",
+      "human_confirmed": false
+    },
+    {
+      "strategy": "C",
+      "question_id": "q17",
+      "ai_proposed_score": 2,
+      "ai_reason": "Top-2 ghi rõ bản khắc làm từ gỗ mít, nguồn tranh làng Sình và unit/offset truy vết được.",
+      "human_confirmed": false
+    },
+    {
+      "strategy": "C",
+      "question_id": "q18",
+      "ai_proposed_score": 0,
+      "ai_reason": "Top-3 không có chi tiết bút vẽ làm từ cây dứa; chỉ trả về mô tả tranh hoặc dụng cụ khác.",
+      "human_confirmed": false
+    },
+    {
+      "strategy": "C",
+      "question_id": "q19",
+      "ai_proposed_score": 0,
+      "ai_reason": "Các chunk nói về vân gỗ, dụng cụ hoặc hoàng dương; không chứa lý do loại gỗ thông.",
+      "human_confirmed": false
+    },
+    {
+      "strategy": "C",
+      "question_id": "q20",
+      "ai_proposed_score": 2,
+      "ai_reason": "Có nguyên câu Sau mỗi lần in phải quét mực lại cho bản in khắc gỗ, đúng nguồn và đủ ngữ cảnh.",
+      "human_confirmed": false
+    }
+  ],
+  "equivalent_evidence_proposals": [
+    {
+      "strategy": "A",
+      "question_id": "q16",
+      "rank": 1,
+      "chunk_id": "e0cdfa3efd120fa77c2a0ccc",
+      "source_id": "hoi_hoa_dan_gian",
+      "unit_id": "hoi_hoa_dan_gian_u008",
+      "evidence_quote": "Bản in đen chờ cho khô thì đem tô màu.",
+      "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=H%E1%BB%99i_h%E1%BB%8Da_d%C3%A2n_gian_Vi%E1%BB%87t_Nam&oldid=74427393",
+      "ai_proposed_equivalent_hit": true,
+      "human_confirmed": false,
+      "reason": "Cùng điều kiện phải để bản in đen khô trước tô màu; văn cảnh xác định tranh làng Sình."
+    },
+    {
+      "strategy": "B",
+      "question_id": "q16",
+      "rank": 1,
+      "chunk_id": "de12e5cab3f3474a26bc3b85",
+      "source_id": "hoi_hoa_dan_gian",
+      "unit_id": "hoi_hoa_dan_gian_u008",
+      "evidence_quote": "Bản in đen chờ cho khô thì đem tô màu.",
+      "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=H%E1%BB%99i_h%E1%BB%8Da_d%C3%A2n_gian_Vi%E1%BB%87t_Nam&oldid=74427393",
+      "ai_proposed_equivalent_hit": true,
+      "human_confirmed": false,
+      "reason": "Cùng điều kiện phải để bản in đen khô trước tô màu; văn cảnh xác định tranh làng Sình."
+    },
+    {
+      "strategy": "C",
+      "question_id": "q16",
+      "rank": 1,
+      "chunk_id": "de12e5cab3f3474a26bc3b85",
+      "source_id": "hoi_hoa_dan_gian",
+      "unit_id": "hoi_hoa_dan_gian_u008",
+      "evidence_quote": "Bản in đen chờ cho khô thì đem tô màu.",
+      "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=H%E1%BB%99i_h%E1%BB%8Da_d%C3%A2n_gian_Vi%E1%BB%87t_Nam&oldid=74427393",
+      "ai_proposed_equivalent_hit": true,
+      "human_confirmed": false,
+      "reason": "Cùng điều kiện phải để bản in đen khô trước tô màu; văn cảnh xác định tranh làng Sình."
+    }
+  ]
+}

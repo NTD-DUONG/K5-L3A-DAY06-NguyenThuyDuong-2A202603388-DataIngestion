@@ -1,0 +1,4 @@
+strategy,split,hit_at_1_n,evidence_hit_at_3_n,questions,filter_compliant_n,filter_questions
+A,dev,6,9,15,0,2
+B,dev,9,10,15,0,2
+C,dev,10,11,15,2,2

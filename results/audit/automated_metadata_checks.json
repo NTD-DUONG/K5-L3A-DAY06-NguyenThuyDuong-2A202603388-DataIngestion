@@ -1,0 +1,17 @@
+{
+  "A": {
+    "checked_records": 15,
+    "records_passing_automated_consistency_checks": 15,
+    "human_reviewed_records": 0
+  },
+  "B": {
+    "checked_records": 15,
+    "records_passing_automated_consistency_checks": 15,
+    "human_reviewed_records": 0
+  },
+  "C": {
+    "checked_records": 15,
+    "records_passing_automated_consistency_checks": 15,
+    "human_reviewed_records": 0
+  }
+}

@@ -1,0 +1,4 @@
+strategy,split,hit_at_1_n,evidence_hit_at_3_n,questions,filter_compliant_n,filter_questions
+A,test,1,1,5,0,1
+B,test,0,1,5,0,1
+C,test,0,2,5,1,1

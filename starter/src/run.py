@@ -1,18 +1,24 @@
-"""Suggested pipeline entry point; TODO: implement the orchestration."""
+"""Single entry point for the implemented local Chroma lab pipeline."""
+import argparse
+from pathlib import Path
+import subprocess
+import sys
 
 
 def main() -> None:
-    """TODO:
-
-    1. Load the corpus and benchmark; validate at least 30 content pages.
-    2. Build strategies A (fixed), B (paragraph) and C (B + metadata filter).
-    3. Embed with the same model and store vectors/metadata per strategy.
-    4. Run the same dev/test questions and save full top-3 traces.
-    5. Report retrieval metrics and prepare samples for manual assessment.
-
-    Follow the five dimensions in ../../BENCHMARK.md.
-    """
-    raise NotImplementedError("TODO: implement the Day 06 pipeline")
+    stages = {
+        "check": "validate_submission.py", "units": "build_source_units.py",
+        "chunks": "build_chunks.py", "ingest": "ingest_vectors.py",
+        "dev": "evaluate_dev.py", "test": "evaluate_test.py",
+        "prepare-audit": "prepare_audits.py", "audit-status": "summarize_audits.py",
+        "draft-report": "build_report.py",
+    }
+    parser = argparse.ArgumentParser(description="Day 6: local embeddings + persistent Chroma")
+    parser.add_argument("--stage", choices=stages, default="check")
+    args = parser.parse_args()
+    root = Path(__file__).resolve().parents[2]
+    result = subprocess.run([sys.executable, str(root / "scripts" / stages[args.stage])], cwd=root)
+    raise SystemExit(result.returncode)
 
 
 if __name__ == "__main__":

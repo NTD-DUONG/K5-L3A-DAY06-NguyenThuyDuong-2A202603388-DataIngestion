@@ -1,0 +1,408 @@
+[
+  {
+    "id": "q01",
+    "split": "dev",
+    "question": "Giấy dó được sản xuất từ nguyên liệu chính nào?",
+    "expected_answer": "Vỏ cây dó, chẳng hạn dó giấy hoặc dó liệt.",
+    "gold_source_id": "giay_do",
+    "gold_page": "giay_do_u001",
+    "evidence_quote": "Giấy dó là loại giấy được sản xuất từ vỏ những cây dó (như dó giấy , dó liệt ...), theo quy trình thủ công được truyền lại qua nhiều thế hệ ở một số làng nghề ở Việt Nam .",
+    "acceptable_evidence": [
+      {
+        "source_id": "giay_do",
+        "page": "giay_do_u001",
+        "evidence_quote": "Giấy dó là loại giấy được sản xuất từ vỏ những cây dó (như dó giấy , dó liệt ...), theo quy trình thủ công được truyền lại qua nhiều thế hệ ở một số làng nghề ở Việt Nam ."
+      }
+    ],
+    "filter": null,
+    "filter_origin": null,
+    "question_type": "direct",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q02",
+    "split": "dev",
+    "question": "Trong quy trình làm giấy dó được mô tả, vỏ dó được ngâm trong nước vôi bao lâu?",
+    "expected_answer": "Ba tháng.",
+    "gold_source_id": "giay_do",
+    "gold_page": "giay_do_u001",
+    "evidence_quote": "Vỏ cây dó được ngâm trong nước vôi với thời gian ba tháng, sau đó được nấu cách thủy khoảng 3 ngày 2 đêm cho đến khi ngửi thấy mùi thơm của vỏ cây được nấu chín nhừ hoặc thấy phần thịt của vỏ cây dó trong lại.",
+    "acceptable_evidence": [
+      {
+        "source_id": "giay_do",
+        "page": "giay_do_u001",
+        "evidence_quote": "Vỏ cây dó được ngâm trong nước vôi với thời gian ba tháng, sau đó được nấu cách thủy khoảng 3 ngày 2 đêm cho đến khi ngửi thấy mùi thơm của vỏ cây được nấu chín nhừ hoặc thấy phần thịt của vỏ cây dó trong lại."
+      }
+    ],
+    "filter": null,
+    "filter_origin": null,
+    "question_type": "direct",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q03",
+    "split": "dev",
+    "question": "Vì sao giấy dó nhẹ và hút mực?",
+    "expected_answer": "Do giấy có độ xốp.",
+    "gold_source_id": "giay_do",
+    "gold_page": "giay_do_u002",
+    "evidence_quote": "Vì xốp nên giấy dó rất nhẹ và hút mực.",
+    "acceptable_evidence": [
+      {
+        "source_id": "giay_do",
+        "page": "giay_do_u002",
+        "evidence_quote": "Vì xốp nên giấy dó rất nhẹ và hút mực."
+      }
+    ],
+    "filter": null,
+    "filter_origin": null,
+    "question_type": "paraphrase",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q04",
+    "split": "dev",
+    "question": "Hai loại tranh chính được nêu trong phần lịch sử hội họa dân gian Việt Nam là gì?",
+    "expected_answer": "Tranh Tết và tranh thờ.",
+    "gold_source_id": "hoi_hoa_dan_gian",
+    "gold_page": "hoi_hoa_dan_gian_u001",
+    "evidence_quote": "Về cơ bản có hai loại tranh chính là tranh Tết và tranh thờ .",
+    "acceptable_evidence": [
+      {
+        "source_id": "hoi_hoa_dan_gian",
+        "page": "hoi_hoa_dan_gian_u001",
+        "evidence_quote": "Về cơ bản có hai loại tranh chính là tranh Tết và tranh thờ ."
+      }
+    ],
+    "filter": null,
+    "filter_origin": null,
+    "question_type": "direct",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q05",
+    "split": "dev",
+    "question": "Quan niệm tạo hình của phần lớn tranh dân gian ưu tiên ‘sống’ hay ‘giống’?",
+    "expected_answer": "Ưu tiên ‘sống’ hơn ‘giống’.",
+    "gold_source_id": "hoi_hoa_dan_gian",
+    "gold_page": "hoi_hoa_dan_gian_u004",
+    "evidence_quote": "Hầu hết tranh dân gian được vẽ theo quan niệm \"sống\" hơn \"giống\".",
+    "acceptable_evidence": [
+      {
+        "source_id": "hoi_hoa_dan_gian",
+        "page": "hoi_hoa_dan_gian_u004",
+        "evidence_quote": "Hầu hết tranh dân gian được vẽ theo quan niệm \"sống\" hơn \"giống\"."
+      }
+    ],
+    "filter": null,
+    "filter_origin": null,
+    "question_type": "paraphrase",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q06",
+    "split": "dev",
+    "question": "Ván in tranh Đông Hồ được chia thành hai loại nào?",
+    "expected_answer": "Ván in nét và ván in màu.",
+    "gold_source_id": "tranh_dong_ho",
+    "gold_page": "tranh_dong_ho_u002",
+    "evidence_quote": "Ván khắc in tranh có hai loại: ván in nét và ván in màu.",
+    "acceptable_evidence": [
+      {
+        "source_id": "tranh_dong_ho",
+        "page": "tranh_dong_ho_u002",
+        "evidence_quote": "Ván khắc in tranh có hai loại: ván in nét và ván in màu."
+      }
+    ],
+    "filter": null,
+    "filter_origin": null,
+    "question_type": "direct",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q07",
+    "split": "dev",
+    "question": "Trong phạm vi tranh Đông Hồ, ván in nét thường dùng gỗ gì?",
+    "expected_answer": "Gỗ thị hoặc gỗ thừng mực.",
+    "gold_source_id": "tranh_dong_ho",
+    "gold_page": "tranh_dong_ho_u002",
+    "evidence_quote": "Ván in nét thường được làm từ gỗ thị hoặc gỗ thừng mực.",
+    "acceptable_evidence": [
+      {
+        "source_id": "tranh_dong_ho",
+        "page": "tranh_dong_ho_u002",
+        "evidence_quote": "Ván in nét thường được làm từ gỗ thị hoặc gỗ thừng mực."
+      }
+    ],
+    "filter": {
+      "painting_tradition": "dong_ho"
+    },
+    "filter_origin": "Phạm vi dòng tranh được nêu ngay trong câu hỏi.",
+    "question_type": "metadata",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q08",
+    "split": "dev",
+    "question": "Vì sao người làm tranh Đông Hồ chọn gỗ mỡ cho ván in màu?",
+    "expected_answer": "Vì gỗ mỡ có khả năng giữ màu cao hơn nhiều loại gỗ khác.",
+    "gold_source_id": "tranh_dong_ho",
+    "gold_page": "tranh_dong_ho_u002",
+    "evidence_quote": "Ván in màu được làm bằng gỗ mỡ bởi vì khi phết màu nên để in tranh gỗ mỡ có khả năng giữ màu cao hơn nhiều loại gỗ khác.",
+    "acceptable_evidence": [
+      {
+        "source_id": "tranh_dong_ho",
+        "page": "tranh_dong_ho_u002",
+        "evidence_quote": "Ván in màu được làm bằng gỗ mỡ bởi vì khi phết màu nên để in tranh gỗ mỡ có khả năng giữ màu cao hơn nhiều loại gỗ khác."
+      }
+    ],
+    "filter": null,
+    "filter_origin": null,
+    "question_type": "paraphrase",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q09",
+    "split": "dev",
+    "question": "Làng Đông Hồ xưa còn có tên gọi nào?",
+    "expected_answer": "Làng Mái.",
+    "gold_source_id": "tranh_dong_ho",
+    "gold_page": "tranh_dong_ho_u004",
+    "evidence_quote": "Làng Đông Hồ xưa còn gọi là làng Mái.",
+    "acceptable_evidence": [
+      {
+        "source_id": "tranh_dong_ho",
+        "page": "tranh_dong_ho_u004",
+        "evidence_quote": "Làng Đông Hồ xưa còn gọi là làng Mái."
+      }
+    ],
+    "filter": null,
+    "filter_origin": null,
+    "question_type": "direct",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q10",
+    "split": "dev",
+    "question": "Trong phạm vi tranh Hàng Trống, ván khắc làm bằng loại gỗ nào?",
+    "expected_answer": "Gỗ lồng mực hoặc gỗ thị.",
+    "gold_source_id": "tranh_hang_trong",
+    "gold_page": "tranh_hang_trong_u002",
+    "evidence_quote": "Ván khắc được làm bằng gỗ lồng mực hoặc gỗ thị.",
+    "acceptable_evidence": [
+      {
+        "source_id": "tranh_hang_trong",
+        "page": "tranh_hang_trong_u002",
+        "evidence_quote": "Ván khắc được làm bằng gỗ lồng mực hoặc gỗ thị."
+      }
+    ],
+    "filter": {
+      "painting_tradition": "hang_trong"
+    },
+    "filter_origin": "Phạm vi dòng tranh được nêu ngay trong câu hỏi.",
+    "question_type": "metadata",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q11",
+    "split": "dev",
+    "question": "Sau khi bồi giấy tranh Hàng Trống, khi nào mới có thể vẽ màu lại?",
+    "expected_answer": "Khi hồ đã khô.",
+    "gold_source_id": "tranh_hang_trong",
+    "gold_page": "tranh_hang_trong_u002",
+    "evidence_quote": "Khi hồ đã khô thì mới có thể vẽ màu lại.",
+    "acceptable_evidence": [
+      {
+        "source_id": "tranh_hang_trong",
+        "page": "tranh_hang_trong_u002",
+        "evidence_quote": "Khi hồ đã khô thì mới có thể vẽ màu lại."
+      }
+    ],
+    "filter": null,
+    "filter_origin": null,
+    "question_type": "condition",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q12",
+    "split": "dev",
+    "question": "Khi pha màu cho tranh Hàng Trống, có bắt buộc một tỷ lệ chuẩn cố định không?",
+    "expected_answer": "Không; tỷ lệ nhằm tạo cảm giác thuận mắt và ưa nhìn.",
+    "gold_source_id": "tranh_hang_trong",
+    "gold_page": "tranh_hang_trong_u002",
+    "evidence_quote": "Tỷ lệ được tạo không hề đúng với công thức chuẩn mà chỉ để cho thật thuận mắt và ưa nhìn.",
+    "acceptable_evidence": [
+      {
+        "source_id": "tranh_hang_trong",
+        "page": "tranh_hang_trong_u002",
+        "evidence_quote": "Tỷ lệ được tạo không hề đúng với công thức chuẩn mà chỉ để cho thật thuận mắt và ưa nhìn."
+      }
+    ],
+    "filter": null,
+    "filter_origin": null,
+    "question_type": "condition",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q13",
+    "split": "dev",
+    "question": "Tranh Kim Hoàng còn được gọi là ‘tranh đỏ’ vì dùng những loại giấy nào?",
+    "expected_answer": "Giấy hồng điều hoặc giấy vàng tàu, tạo nền tươi thắm.",
+    "gold_source_id": "tranh_kim_hoang",
+    "gold_page": "tranh_kim_hoang_u001",
+    "evidence_quote": "Tranh Kim Hoàng chuyên dùng giấy hồng điều hay giấy vàng tàu để làm tranh, dùng bức nền tươi thắm như vậy, cho nên tranh Kim Hoàng còn được gọi bằng một cái tên khác là \"tranh đỏ\", rất phù hợp với không khí tươi vui của ngày Tết.",
+    "acceptable_evidence": [
+      {
+        "source_id": "tranh_kim_hoang",
+        "page": "tranh_kim_hoang_u001",
+        "evidence_quote": "Tranh Kim Hoàng chuyên dùng giấy hồng điều hay giấy vàng tàu để làm tranh, dùng bức nền tươi thắm như vậy, cho nên tranh Kim Hoàng còn được gọi bằng một cái tên khác là \"tranh đỏ\", rất phù hợp với không khí tươi vui của ngày Tết."
+      }
+    ],
+    "filter": null,
+    "filter_origin": null,
+    "question_type": "paraphrase",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q14",
+    "split": "dev",
+    "question": "Sự kiện năm 1915 nào góp phần khiến nghề tranh Kim Hoàng bắt đầu thất truyền?",
+    "expected_answer": "Trận lụt cuốn trôi nhiều ván in của làng.",
+    "gold_source_id": "tranh_kim_hoang",
+    "gold_page": "tranh_kim_hoang_u001",
+    "evidence_quote": "Thế kỷ 19 , tranh Kim Hoàng phát triển mạnh, nhưng rồi bắt đầu bị thất truyền từ trận lụt năm 1915, khi làng mạc từ Phùng đến Cầu Giấy bị ngập trắng, nhiều ván in tranh của làng bị cuốn trôi.",
+    "acceptable_evidence": [
+      {
+        "source_id": "tranh_kim_hoang",
+        "page": "tranh_kim_hoang_u001",
+        "evidence_quote": "Thế kỷ 19 , tranh Kim Hoàng phát triển mạnh, nhưng rồi bắt đầu bị thất truyền từ trận lụt năm 1915, khi làng mạc từ Phùng đến Cầu Giấy bị ngập trắng, nhiều ván in tranh của làng bị cuốn trôi."
+      }
+    ],
+    "filter": null,
+    "filter_origin": null,
+    "question_type": "direct",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q15",
+    "split": "dev",
+    "question": "Ngoài cây dó giấy, một số nơi còn dùng cây nào để làm giấy dó?",
+    "expected_answer": "Cây dướng và cây dó liệt.",
+    "gold_source_id": "giay_do",
+    "gold_page": "giay_do_u003",
+    "evidence_quote": "Một số nơi khác còn dùng cây dướng, cây dó liệt.",
+    "acceptable_evidence": [
+      {
+        "source_id": "giay_do",
+        "page": "giay_do_u003",
+        "evidence_quote": "Một số nơi khác còn dùng cây dướng, cây dó liệt."
+      }
+    ],
+    "filter": null,
+    "filter_origin": null,
+    "question_type": "direct",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q16",
+    "split": "test",
+    "question": "Với tranh làng Sình, sau khi in nét đen có được tô màu ngay không?",
+    "expected_answer": "Không; phải chờ bản in đen khô rồi mới tô màu.",
+    "gold_source_id": "tranh_lang_sinh",
+    "gold_page": "tranh_lang_sinh_u002",
+    "evidence_quote": "Bản in đen phải chờ cho khô rồi mới đem tô màu.",
+    "acceptable_evidence": [
+      {
+        "source_id": "tranh_lang_sinh",
+        "page": "tranh_lang_sinh_u002",
+        "evidence_quote": "Bản in đen phải chờ cho khô rồi mới đem tô màu."
+      }
+    ],
+    "filter": null,
+    "filter_origin": null,
+    "question_type": "condition",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q17",
+    "split": "test",
+    "question": "Trong phạm vi tranh làng Sình, bản khắc được làm bằng gỗ gì?",
+    "expected_answer": "Gỗ mít.",
+    "gold_source_id": "tranh_lang_sinh",
+    "gold_page": "tranh_lang_sinh_u002",
+    "evidence_quote": "Bản khắc của tranh được làm từ gỗ mít .",
+    "acceptable_evidence": [
+      {
+        "source_id": "tranh_lang_sinh",
+        "page": "tranh_lang_sinh_u002",
+        "evidence_quote": "Bản khắc của tranh được làm từ gỗ mít ."
+      }
+    ],
+    "filter": {
+      "painting_tradition": "lang_sinh"
+    },
+    "filter_origin": "Phạm vi dòng tranh được nêu ngay trong câu hỏi.",
+    "question_type": "metadata",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q18",
+    "split": "test",
+    "question": "Bút vẽ tranh làng Sình được làm từ loại cây nào?",
+    "expected_answer": "Cây dứa mọc hoang ngoài đồng.",
+    "gold_source_id": "tranh_lang_sinh",
+    "gold_page": "tranh_lang_sinh_u002",
+    "evidence_quote": "Bút vẽ làm từ cây dứa mọc hoang ngoài đồng.",
+    "acceptable_evidence": [
+      {
+        "source_id": "tranh_lang_sinh",
+        "page": "tranh_lang_sinh_u002",
+        "evidence_quote": "Bút vẽ làm từ cây dứa mọc hoang ngoài đồng."
+      }
+    ],
+    "filter": null,
+    "filter_origin": null,
+    "question_type": "direct",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q19",
+    "split": "test",
+    "question": "Vì sao gỗ thông là một trong những loại gỗ không thích hợp cho kỹ thuật khắc gỗ được mô tả?",
+    "expected_answer": "Vì có nhiều mấu và nhựa.",
+    "gold_source_id": "khac_go",
+    "gold_page": "khac_go_u002",
+    "evidence_quote": "Một trong số ít loại gỗ không thích hợp cho việc khắc gỗ là gỗ của cây thông ( Pinus ) vì gỗ này có nhiều mấu và nhựa.",
+    "acceptable_evidence": [
+      {
+        "source_id": "khac_go",
+        "page": "khac_go_u002",
+        "evidence_quote": "Một trong số ít loại gỗ không thích hợp cho việc khắc gỗ là gỗ của cây thông ( Pinus ) vì gỗ này có nhiều mấu và nhựa."
+      }
+    ],
+    "filter": null,
+    "filter_origin": null,
+    "question_type": "condition",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  },
+  {
+    "id": "q20",
+    "split": "test",
+    "question": "Sau mỗi lần in một bản khắc gỗ, cần làm gì trước lần in tiếp theo?",
+    "expected_answer": "Quét mực lại cho bản khắc gỗ.",
+    "gold_source_id": "khac_go",
+    "gold_page": "khac_go_u002",
+    "evidence_quote": "Sau mỗi lần in phải quét mực lại cho bản in khắc gỗ.",
+    "acceptable_evidence": [
+      {
+        "source_id": "khac_go",
+        "page": "khac_go_u002",
+        "evidence_quote": "Sau mỗi lần in phải quét mực lại cho bản in khắc gỗ."
+      }
+    ],
+    "filter": null,
+    "filter_origin": null,
+    "question_type": "direct",
+    "evidence_review": "AI đối chiếu nội dung và kiểm tra nguyên văn với corpus; học viên chưa duyệt."
+  }
+]

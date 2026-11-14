@@ -1,5 +1,20 @@
 # Day 06 · Data Ingestion Engineering
 
+## Bài làm hiện tại
+
+Corpus: **Tranh Đông Hồ và hội họa dân gian Việt Nam** — 7 nguồn, 30 đơn vị HTML/MHTML, 52.822 ký tự chuẩn hóa. Đã chạy pipeline embedding local + Chroma và benchmark 15 dev / 5 test cho A/B/C. Chọn C bằng dev trước khi chạy test.
+
+- [Hướng dẫn setup và chạy](PIPELINE.md), dependencies trong [requirements-lab.txt](requirements-lab.txt).
+- [Manifest nguồn và giấy phép](data/manifest.json), [bộ câu hỏi](benchmark/questions.json), [cấu hình](configs/strategies.json).
+- Kết quả: [dev](results/dev/summary.json), [test](results/test/summary.json), [lựa chọn cố định](results/dev_selection.json).
+- [Báo cáo cá nhân](report/individual/2A202603388_NguyenThuyDuong.md) và [phiếu audit](results/audit/CHAM_DOC_TUNG_MAU.md).
+- [Kết quả AI chấm riêng](results/audit/AI_REVIEW.md): đủ nhận xét coherence/metadata/grounding, có khai báo phương pháp và giới hạn; chưa phải nhãn thủ công của học viên.
+- [Phiếu đọc và chấm từng mẫu](results/audit/CHAM_DOC_TUNG_MAU.md): nhận xét cụ thể 10 vị trí coherence, 5 câu grounding mỗi cấu hình và 45 metadata.
+
+Kiểm tra bài từ thư mục repo bằng `python scripts/validate_submission.py`. Nguyễn Thùy Dương đã xác nhận 30 nhãn coherence, 15 grounding, 45 metadata và evidence tương đương q16. Hồ sơ xác nhận và tổng hợp được lưu trong thư mục audit. [Xác nhận](results/audit/student_confirmation.json), [tổng hợp nhãn](results/audit/HUMAN_SUMMARY.md).
+
+Bản nguồn nộp trong `data/text_sources/` chứa văn bản Wikipedia và liên kết nguồn. Quy trình đóng gói đã loại ảnh, CSS và nội dung thực thi. Bản báo cáo mô tả phương pháp, công cụ và giới hạn của đánh giá. Phiên bản bài nộp được gắn tag `submission-day06`. Nội dung bên dưới là đề bài gốc.
+
 **Lab cá nhân** · **4 giờ** · **Dữ liệu tự chọn**
 
 Biến tài liệu thành kho tri thức có thể truy xuất cho AI agent, rồi đo xem cách chuẩn bị dữ liệu nào hiệu quả nhất.

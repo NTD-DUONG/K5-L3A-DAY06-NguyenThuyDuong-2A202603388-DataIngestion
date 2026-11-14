@@ -1,0 +1,17 @@
+{
+  "frozen_at_utc": "2026-11-13T20:06:09.507654+00:00",
+  "selected_strategy": "C",
+  "selection_rule": "Chọn cấu hình theo Evidence Hit@3 trên dev; nếu bằng nhau dùng Hit@1 dev; tiếp tục bằng nhau chọn ít chunk hơn; cuối cùng ưu tiên A rồi B rồi C. Cố định trước khi chạy test.",
+  "basis": "automatic dev evidence metrics",
+  "questions_sha256": "f3b0c83360ed26dfc16033f0400eacc5c80f66de79b6a93423b6f4a6f1e187e7",
+  "strategies_config_sha256": "b2b4b504144ae483b2f2e702c9286c5fed033ff05e0793b7c01c386b23e6e870",
+  "source_units_sha256": "e19e45509a440f3b66e8ad20f4907325a54f782fc6405e4af10009185d6fee99",
+  "model_signature": "87234930e88b1c8b85a64876d2efe01d8d1b728d911ac3968ce2c784289dfa78",
+  "chunk_hashes": {
+    "A": "280155e46fc07aa6dafbfae3465d7a2a2ad8dc9a246c4d393a908ff036691f9d",
+    "B": "d14de76335e872dab8e20548bd829b935ee1bbb55669dd6fb368f7bb632e7630",
+    "C": "d14de76335e872dab8e20548bd829b935ee1bbb55669dd6fb368f7bb632e7630"
+  },
+  "dev_summary_sha256": "8cfb5136431261dfdc3f1068209b3cf5e4d47f2828a7c901801a6bd1a8785fe2",
+  "test_retrieval_executed_at_selection": false
+}

@@ -1,0 +1,179 @@
+{
+  "assessment_type": "AI assessment, not student/human manual grading",
+  "assessor": "Codex AI",
+  "assessed_at_utc": "2026-11-13T20:24:45.318178+00:00",
+  "student_confirmed": false,
+  "source_snapshot_checks": {
+    "tranh_dong_ho": {
+      "title_checked_against_saved_MHTML": true,
+      "snapshot_checked_against_saved_MHTML": true
+    },
+    "hoi_hoa_dan_gian": {
+      "title_checked_against_saved_MHTML": true,
+      "snapshot_checked_against_saved_MHTML": true
+    },
+    "giay_do": {
+      "title_checked_against_saved_MHTML": true,
+      "snapshot_checked_against_saved_MHTML": true
+    },
+    "tranh_hang_trong": {
+      "title_checked_against_saved_MHTML": true,
+      "snapshot_checked_against_saved_MHTML": true
+    },
+    "tranh_kim_hoang": {
+      "title_checked_against_saved_MHTML": true,
+      "snapshot_checked_against_saved_MHTML": true
+    },
+    "tranh_lang_sinh": {
+      "title_checked_against_saved_MHTML": true,
+      "snapshot_checked_against_saved_MHTML": true
+    },
+    "khac_go": {
+      "title_checked_against_saved_MHTML": true,
+      "snapshot_checked_against_saved_MHTML": true
+    }
+  },
+  "strategies": {
+    "A": {
+      "test_retrieval_after_AI_equivalent_evidence_review": {
+        "strategy": "A",
+        "split": "test",
+        "question_count": 5,
+        "hit_at_1": {
+          "numerator": 2,
+          "denominator": 5,
+          "value": 0.4
+        },
+        "evidence_hit_at_3": {
+          "numerator": 2,
+          "denominator": 5,
+          "value": 0.4
+        },
+        "filter_compliance": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0
+        },
+        "failed_question_ids": [
+          "q17",
+          "q18",
+          "q19"
+        ]
+      },
+      "coherence": {
+        "count": 10,
+        "mean_out_of_2": 1.0
+      },
+      "grounding": {
+        "count": 5,
+        "counts_0_1_2": [
+          2,
+          1,
+          2
+        ],
+        "mean_out_of_2": 1.0
+      },
+      "metadata": {
+        "correct_and_complete": 15,
+        "count": 15
+      }
+    },
+    "B": {
+      "test_retrieval_after_AI_equivalent_evidence_review": {
+        "strategy": "B",
+        "split": "test",
+        "question_count": 5,
+        "hit_at_1": {
+          "numerator": 1,
+          "denominator": 5,
+          "value": 0.2
+        },
+        "evidence_hit_at_3": {
+          "numerator": 2,
+          "denominator": 5,
+          "value": 0.4
+        },
+        "filter_compliance": {
+          "numerator": 0,
+          "denominator": 1,
+          "value": 0.0
+        },
+        "failed_question_ids": [
+          "q17",
+          "q18",
+          "q19"
+        ]
+      },
+      "coherence": {
+        "count": 10,
+        "mean_out_of_2": 1.7
+      },
+      "grounding": {
+        "count": 5,
+        "counts_0_1_2": [
+          3,
+          0,
+          2
+        ],
+        "mean_out_of_2": 0.8
+      },
+      "metadata": {
+        "correct_and_complete": 15,
+        "count": 15
+      }
+    },
+    "C": {
+      "test_retrieval_after_AI_equivalent_evidence_review": {
+        "strategy": "C",
+        "split": "test",
+        "question_count": 5,
+        "hit_at_1": {
+          "numerator": 1,
+          "denominator": 5,
+          "value": 0.2
+        },
+        "evidence_hit_at_3": {
+          "numerator": 3,
+          "denominator": 5,
+          "value": 0.6
+        },
+        "filter_compliance": {
+          "numerator": 1,
+          "denominator": 1,
+          "value": 1.0
+        },
+        "failed_question_ids": [
+          "q18",
+          "q19"
+        ]
+      },
+      "coherence": {
+        "count": 10,
+        "mean_out_of_2": 1.7
+      },
+      "grounding": {
+        "count": 5,
+        "counts_0_1_2": [
+          2,
+          0,
+          3
+        ],
+        "mean_out_of_2": 1.2
+      },
+      "metadata": {
+        "correct_and_complete": 15,
+        "count": 15
+      }
+    }
+  },
+  "method": "AI read selected coherence chunk texts and full test top-3; used lab 0/1/2 rubric; metadata checked against manifests, unit offsets and MHTML title/snapshot; q16 equivalent evidence accepted by AI with explicit source and context.",
+  "bias_and_limits": [
+    "Same AI helped build pipeline and gold; not an independent or blinded assessor.",
+    "Coherence anchors selected after retrieval metrics were seen, before coherence scores; scope-biased sample.",
+    "Metadata consistency is not a claim that every statement in Wikipedia is factually correct.",
+    "Only q16 has an explicit accepted equivalent-evidence override; review is not an exhaustive independent inventory of all possible sources.",
+    "Student understanding/confirmation and required manual grading are not established by this AI review."
+  ],
+  "original_automatic_metrics_preserved": true,
+  "frozen_selection_sha256": "4fe1b4765c5d05f6195480d8fde7f14edf3ca3d621908dfebb9d2bbbd6495661"
+}

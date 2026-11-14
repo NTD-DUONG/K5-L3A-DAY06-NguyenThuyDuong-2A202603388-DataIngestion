@@ -1,0 +1,47 @@
+[
+  {
+    "strategy": "A",
+    "question_id": "q16",
+    "rank": 1,
+    "chunk_id": "e0cdfa3efd120fa77c2a0ccc",
+    "source_id": "hoi_hoa_dan_gian",
+    "unit_id": "hoi_hoa_dan_gian_u008",
+    "evidence_quote": "Bản in đen chờ cho khô thì đem tô màu.",
+    "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=H%E1%BB%99i_h%E1%BB%8Da_d%C3%A2n_gian_Vi%E1%BB%87t_Nam&oldid=74427393",
+    "ai_proposed_equivalent_hit": true,
+    "human_confirmed": true,
+    "reason": "Cùng điều kiện phải để bản in đen khô trước tô màu; văn cảnh xác định tranh làng Sình.",
+    "reviewer": "Nguyễn Thùy Dương",
+    "reviewed_at_utc": "2026-11-13T20:35:13.140384+00:00"
+  },
+  {
+    "strategy": "B",
+    "question_id": "q16",
+    "rank": 1,
+    "chunk_id": "de12e5cab3f3474a26bc3b85",
+    "source_id": "hoi_hoa_dan_gian",
+    "unit_id": "hoi_hoa_dan_gian_u008",
+    "evidence_quote": "Bản in đen chờ cho khô thì đem tô màu.",
+    "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=H%E1%BB%99i_h%E1%BB%8Da_d%C3%A2n_gian_Vi%E1%BB%87t_Nam&oldid=74427393",
+    "ai_proposed_equivalent_hit": true,
+    "human_confirmed": true,
+    "reason": "Cùng điều kiện phải để bản in đen khô trước tô màu; văn cảnh xác định tranh làng Sình.",
+    "reviewer": "Nguyễn Thùy Dương",
+    "reviewed_at_utc": "2026-11-13T20:35:13.140384+00:00"
+  },
+  {
+    "strategy": "C",
+    "question_id": "q16",
+    "rank": 1,
+    "chunk_id": "de12e5cab3f3474a26bc3b85",
+    "source_id": "hoi_hoa_dan_gian",
+    "unit_id": "hoi_hoa_dan_gian_u008",
+    "evidence_quote": "Bản in đen chờ cho khô thì đem tô màu.",
+    "snapshot_url": "https://vi.wikipedia.org/w/index.php?title=H%E1%BB%99i_h%E1%BB%8Da_d%C3%A2n_gian_Vi%E1%BB%87t_Nam&oldid=74427393",
+    "ai_proposed_equivalent_hit": true,
+    "human_confirmed": true,
+    "reason": "Cùng điều kiện phải để bản in đen khô trước tô màu; văn cảnh xác định tranh làng Sình.",
+    "reviewer": "Nguyễn Thùy Dương",
+    "reviewed_at_utc": "2026-11-13T20:35:13.140384+00:00"
+  }
+]

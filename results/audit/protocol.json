@@ -1,0 +1,58 @@
+{
+  "created_at_utc": "2026-11-13T20:11:48.243996+00:00",
+  "coherence_sampling": "First 10 unit IDs sorted lexicographically; anchor at character 750, move right over whitespace. If multiple chunks contain anchor, choose smallest unit_start_offset, then chunk_id.",
+  "anchors": [
+    {
+      "unit_id": "giay_do_u001",
+      "unit_offset": 751
+    },
+    {
+      "unit_id": "giay_do_u002",
+      "unit_offset": 750
+    },
+    {
+      "unit_id": "giay_do_u003",
+      "unit_offset": 750
+    },
+    {
+      "unit_id": "hoi_hoa_dan_gian_u001",
+      "unit_offset": 750
+    },
+    {
+      "unit_id": "hoi_hoa_dan_gian_u002",
+      "unit_offset": 750
+    },
+    {
+      "unit_id": "hoi_hoa_dan_gian_u003",
+      "unit_offset": 750
+    },
+    {
+      "unit_id": "hoi_hoa_dan_gian_u004",
+      "unit_offset": 750
+    },
+    {
+      "unit_id": "hoi_hoa_dan_gian_u005",
+      "unit_offset": 751
+    },
+    {
+      "unit_id": "hoi_hoa_dan_gian_u006",
+      "unit_offset": 750
+    },
+    {
+      "unit_id": "hoi_hoa_dan_gian_u007",
+      "unit_offset": 750
+    }
+  ],
+  "sampling_limitations": "Sampling rule recorded after retrieval metrics were seen, before coherence labels. First units overrepresent paper/general sources; not a random representative sample.",
+  "coherence_scale": {
+    "0": "Cắt giữa ý/thiếu chủ thể khiến không hiểu",
+    "1": "Hiểu một phần, thiếu ngữ cảnh",
+    "2": "Tự hiểu được, giữ trọn ý"
+  },
+  "grounding_scale": {
+    "0": "Không có bằng chứng trả lời",
+    "1": "Có nhưng thiếu điều kiện/ngữ cảnh",
+    "2": "Đủ bằng chứng trả lời và truy nguồn"
+  },
+  "human_labels": "Must be filled by student after reading. AI proposals remain separate and are not human labels."
+}

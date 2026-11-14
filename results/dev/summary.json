@@ -1,0 +1,100 @@
+{
+  "run_at_utc": "2026-11-13T20:06:09.501231+00:00",
+  "split": "dev",
+  "questions_sha256": "f3b0c83360ed26dfc16033f0400eacc5c80f66de79b6a93423b6f4a6f1e187e7",
+  "strategies": {
+    "A": {
+      "strategy": "A",
+      "split": "dev",
+      "question_count": 15,
+      "hit_at_1": {
+        "numerator": 6,
+        "denominator": 15,
+        "value": 0.4
+      },
+      "evidence_hit_at_3": {
+        "numerator": 9,
+        "denominator": 15,
+        "value": 0.6
+      },
+      "filter_compliance": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "failed_question_ids": [
+        "q06",
+        "q07",
+        "q08",
+        "q10",
+        "q12",
+        "q14"
+      ]
+    },
+    "B": {
+      "strategy": "B",
+      "split": "dev",
+      "question_count": 15,
+      "hit_at_1": {
+        "numerator": 9,
+        "denominator": 15,
+        "value": 0.6
+      },
+      "evidence_hit_at_3": {
+        "numerator": 10,
+        "denominator": 15,
+        "value": 0.6666666666666666
+      },
+      "filter_compliance": {
+        "numerator": 0,
+        "denominator": 2,
+        "value": 0.0
+      },
+      "failed_question_ids": [
+        "q01",
+        "q05",
+        "q06",
+        "q10",
+        "q15"
+      ]
+    },
+    "C": {
+      "strategy": "C",
+      "split": "dev",
+      "question_count": 15,
+      "hit_at_1": {
+        "numerator": 10,
+        "denominator": 15,
+        "value": 0.6666666666666666
+      },
+      "evidence_hit_at_3": {
+        "numerator": 11,
+        "denominator": 15,
+        "value": 0.7333333333333333
+      },
+      "filter_compliance": {
+        "numerator": 2,
+        "denominator": 2,
+        "value": 1.0
+      },
+      "failed_question_ids": [
+        "q01",
+        "q05",
+        "q06",
+        "q15"
+      ]
+    }
+  },
+  "trace_paths": {
+    "A": "results/dev/A_traces.jsonl",
+    "B": "results/dev/B_traces.jsonl",
+    "C": "results/dev/C_traces.jsonl"
+  },
+  "query_embedding_seconds_shared": 0.09637690000090515,
+  "test_retrieval_executed": false,
+  "limitations": [
+    "Automatic exact-evidence matching can miss valid paraphrased/alternative evidence; review traces manually.",
+    "These results do not substitute for human coherence, metadata or grounding labels.",
+    "Small dev set, correlated topics and AI-assisted gold limit generalization."
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "created_at_utc": "2026-11-13T19:40:11.880151+00:00",
+  "questions_sha256": "25763c61f615d55916462aaf20a744efba162129515956ea0d38460d91f41523",
+  "source_units_sha256": "e19e45509a440f3b66e8ad20f4907325a54f782fc6405e4af10009185d6fee99",
+  "dev_ids": [
+    "q01",
+    "q02",
+    "q03",
+    "q04",
+    "q05",
+    "q06",
+    "q07",
+    "q08",
+    "q09",
+    "q10",
+    "q11",
+    "q12",
+    "q13",
+    "q14",
+    "q15"
+  ],
+  "test_ids": [
+    "q16",
+    "q17",
+    "q18",
+    "q19",
+    "q20"
+  ],
+  "selection_rule": "Chọn cấu hình theo Evidence Hit@3 trên dev; nếu bằng nhau dùng Hit@1 dev; tiếp tục bằng nhau chọn ít chunk hơn; cuối cùng ưu tiên A rồi B rồi C. Cố định trước khi chạy test.",
+  "split_rationale": "Dev tập trung giấy dó, tổng quan, Đông Hồ, Hàng Trống, Kim Hoàng. Test dành cho kỹ thuật làng Sình và khắc gỗ; chưa chạy retrieval để chọn câu.",
+  "limitations": [
+    "Chỉ 5 câu test, không đại diện mọi nguồn.",
+    "Corpus tổng quan nhắc lại các dòng tranh nên vẫn có giao thoa chủ đề dev/test.",
+    "Gold do AI hỗ trợ, học viên cần đọc và xác nhận; chưa có nhãn đánh giá thủ công retrieval.",
+    "Các evidence tương đương khác phải được xem xét thủ công và ghi lại, không tự coi sai vì khác nguồn."
+  ]
+}
