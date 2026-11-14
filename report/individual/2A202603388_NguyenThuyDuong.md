@@ -4,7 +4,7 @@
 - MSSV: 2A202603388
 - Lớp: L3A
 - Repo bài nộp: https://github.com/NTD-DUONG/K5-L3A-DAY06-NguyenThuyDuong-2A202603388-DataIngestion
-- Phiên bản bài nộp: `submission-day06-v3`
+- Phiên bản bài nộp: `submission-day06-v4`
 
 ## Dữ liệu và pipeline
 
@@ -82,4 +82,4 @@ Metadata được đối chiếu trên 5 câu test × top-3 của từng cấu h
 
 - **Cải tiến khi làm lại.** Tôi sẽ tăng số câu test và phân bố theo tài liệu/chủ đề, chuẩn bị thêm nguồn ít trùng lặp, chọn mẫu coherence phủ đều các dòng tranh và kiểm tra nhãn bằng người chấm thứ hai. Tôi cũng sẽ thử model hỗ trợ ngữ cảnh dài và hybrid retrieval, chọn tham số trên dev rồi đánh giá bằng một tập test mới nếu đã dùng kết quả hiện tại để thiết kế lại.
 
-- **Công cụ và cách kiểm tra.** Sử dụng Codex hỗ trợ viết code, chuẩn bị benchmark, gợi ý nhãn đánh giá và soạn báo cáo. Kết quả được kiểm tra bằng chạy pipeline, đối chiếu evidence với nguồn, kiểm tra metadata và đọc trace top-3 theo rubric.
+- **Công cụ và cách kiểm tra.** Sử dụng Codex hỗ trợ viết code, chuẩn bị benchmark và soạn báo cáo. Kết quả được kiểm tra bằng chạy pipeline, đối chiếu evidence với nguồn, kiểm tra metadata và đọc trace top-3 theo rubric.

@@ -56,7 +56,7 @@ def main():
         "- MSSV: 2A202603388",
         "- Lớp: L3A",
         "- Repo bài nộp: https://github.com/NTD-DUONG/K5-L3A-DAY06-NguyenThuyDuong-2A202603388-DataIngestion",
-        "- Phiên bản bài nộp: `submission-day06-v3`", "",
+        "- Phiên bản bài nộp: `submission-day06-v4`", "",
         "## Dữ liệu và pipeline", "",
         f"- **Chủ đề, nguồn và quy tắc tính trang.** Tôi chọn chủ đề **{manifest['corpus_title']}**, gồm bảy tài liệu tiếng Việt về Đông Hồ, hội họa dân gian, giấy dó, Hàng Trống, Kim Hoàng, làng Sình và khắc gỗ. Corpus có **{total_chars:,} ký tự sau chuẩn hóa**, chia thành **30 đơn vị nguồn**, mỗi đơn vị tối thiểu 1.500 ký tự. Các đơn vị được chia tuần tự trong từng tài liệu, ưu tiên kết thúc ở câu hoặc đoạn và gộp phần đuôi ngắn vào đơn vị trước. Mỗi đơn vị có ID, vị trí bắt đầu/kết thúc và số ký tự. Nguồn được truy cập ngày 13/11/2026, văn bản theo CC BY-SA 4.0 và điều khoản bổ sung ở từng trang. Manifest ghi URL, snapshot, giấy phép, ghi công và danh sách đơn vị trong `data/manifest.json`. Bản MHTML chỉ chứa văn bản nằm trong `data/text_sources/`.", "",
         "- **Chuẩn hóa, lỗi và giới hạn.** Tôi đọc MHTML bằng email parser, giải mã UTF-8 và dùng BeautifulSoup lấy nội dung chính. Các bước xử lý gồm chuẩn hóa Unicode NFC, khoảng trắng, bỏ giao diện, ảnh, bảng, phần tham khảo và liên kết ngoài. Thẻ dt/dd được giữ để lấy các đoạn thơ. Với bài Khắc gỗ, tôi bỏ nội dung in trên đồ vật, quảng cáo và khắc bút chì vì lệch phạm vi. Log nằm trong `data/processing_logs/`. Đã đối chiếu văn bản trích xuất với bản nguồn nộp và kiểm tra ranh giới của 30 đơn vị. Nguồn tổng quan có một số thông tin gần trùng với bài chuyên biệt, vì vậy corpus chưa được loại trùng ngữ nghĩa toàn diện. Nội dung Wikipedia cũng có những phát biểu cần thận trọng về độ chính xác.", "",
@@ -111,7 +111,7 @@ def main():
         "- **Cải tiến khi làm lại.** Tôi sẽ tăng số câu test và phân bố theo tài liệu/chủ đề, chuẩn bị thêm nguồn ít trùng lặp, chọn mẫu coherence phủ đều các dòng tranh và kiểm tra nhãn bằng người chấm thứ hai. Tôi cũng sẽ thử model hỗ trợ ngữ cảnh dài và hybrid retrieval, chọn tham số trên dev rồi đánh giá bằng một tập test mới nếu đã dùng kết quả hiện tại để thiết kế lại.", "",
     ]
     lines += [
-        "- **Công cụ và cách kiểm tra.** Sử dụng Codex hỗ trợ viết code, chuẩn bị benchmark, gợi ý nhãn đánh giá và soạn báo cáo. Kết quả được kiểm tra bằng chạy pipeline, đối chiếu evidence với nguồn, kiểm tra metadata và đọc trace top-3 theo rubric.", "",
+        "- **Công cụ và cách kiểm tra.** Sử dụng Codex hỗ trợ viết code, chuẩn bị benchmark và soạn báo cáo. Kết quả được kiểm tra bằng chạy pipeline, đối chiếu evidence với nguồn, kiểm tra metadata và đọc trace top-3 theo rubric.", "",
     ]
     report = "\n".join(lines)
     template = (ROOT / "report/individual/MSSV_HoTen.md").read_text(encoding="utf-8")
