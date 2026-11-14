@@ -13,7 +13,7 @@ Corpus: **Tranh Đông Hồ và hội họa dân gian Việt Nam** — 7 nguồn
 
 Kiểm tra bài từ thư mục repo bằng `python scripts/validate_submission.py`. Nguyễn Thùy Dương đã xác nhận 30 nhãn coherence, 15 grounding, 45 metadata và evidence tương đương q16. Hồ sơ xác nhận và tổng hợp được lưu trong thư mục audit. [Xác nhận](results/audit/student_confirmation.json), [tổng hợp nhãn](results/audit/HUMAN_SUMMARY.md).
 
-Bản nguồn nộp trong `data/text_sources/` chứa văn bản Wikipedia và liên kết nguồn. Quy trình đóng gói đã loại ảnh, CSS và nội dung thực thi. Bản báo cáo mô tả phương pháp, công cụ và giới hạn của đánh giá. Phiên bản bài nộp được gắn tag `submission-day06-v2`. Nội dung bên dưới là đề bài gốc.
+Bản nguồn nộp trong `data/text_sources/` chứa văn bản Wikipedia và liên kết nguồn. Quy trình đóng gói đã loại ảnh, CSS và nội dung thực thi. Bản báo cáo mô tả phương pháp, công cụ và giới hạn của đánh giá. Phiên bản bài nộp được gắn tag `submission-day06-v3`. Nội dung bên dưới là đề bài gốc.
 
 **Lab cá nhân** · **4 giờ** · **Dữ liệu tự chọn**
 

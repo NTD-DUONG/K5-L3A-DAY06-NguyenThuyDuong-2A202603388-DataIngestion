@@ -72,7 +72,7 @@ def main():
     student = (ROOT / "STUDENT.md").read_text(encoding="utf-8")
     assert "2A202603388" in student and "L3A" in student and "Nguyễn Thùy Dương" in student
     assert "https://github.com/NTD-DUONG/K5-L3A-DAY06-NguyenThuyDuong-2A202603388-DataIngestion" in student
-    assert "refs/tags/submission-day06-v2" in student
+    assert "refs/tags/submission-day06-v3" in student
     print("PASS: complete confirmed audit labels, text-only source packages, student information and final report")
     print("Repository publication and course submission are checked separately.")
 
