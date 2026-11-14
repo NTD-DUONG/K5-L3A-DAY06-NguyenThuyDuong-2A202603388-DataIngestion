@@ -1,6 +1,6 @@
 # Setup và chạy bài lab
 
-Nguyễn Thùy Dương, MSSV 2A202603388, lớp L3A. Bản bài nộp được gắn tag `submission-day06` trên repo công khai. [Repo bài nộp](https://github.com/NTD-DUONG/K5-L3A-DAY06-NguyenThuyDuong-2A202603388-DataIngestion).
+Nguyễn Thùy Dương, MSSV 2A202603388, lớp L3A. Bản bài nộp được gắn tag `submission-day06-v2` trên repo công khai. [Repo bài nộp](https://github.com/NTD-DUONG/K5-L3A-DAY06-NguyenThuyDuong-2A202603388-DataIngestion).
 
 ## Cài môi trường
 
